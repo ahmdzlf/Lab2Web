@@ -7,19 +7,19 @@
 
 #### 2. Mendeklarasikan CSS Internal
 
-# ![App Screenshot](./Images2/2.png) 
+![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/2.png)
 
 #### 3. Menambahkan Inline CSS
 
-# ![App Screenshot](./Images2/3.png) 
+![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/3.png)
 
 #### 4. Membuat CSS Eksternal
 
-# ![App Screenshot](./Images2/4.png) 
+![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/4.png)
 
 #### 5. Menambahkan CSS Selector
 
-# ![App Screenshot](./Images2/5.png) 
+![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/5.png)
 
 ### Pertanyaan dan Tugas
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
@@ -40,9 +40,9 @@ Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )
 #intro `h1 {...}` Ini adalah selector yang lebih spesifik. Ini berarti hanya elemen `<h1>` yang berada di dalam elemen dengan ID intro yang akan mendapatkan gaya tersebut. Dengan kata lain, jika ada banyak elemen `<h1>` di halaman, hanya yang ada dalam elemen dengan ID intro yang akan terpengaruh.
 
 3. ika ada deklarasi CSS secara internal, kemudian ditambahkan CSS eksternal dan inline CSS pada elemen yang sama, inline CSS yang akan ditampilkan di browser. Ini disebabkan oleh prinsip specificity (tingkat spesifik) dalam CSS, di mana inline CSS memiliki prioritas tertinggi dibandingkan dengan CSS internal dan eksternal.
-![App Screenshot](./Images2/6.png) 
+![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/6.png)
 Pada contoh di atas, meskipun ada deklarasi warna biru dalam CSS internal dan warna default di CSS eksternal, elemen `<h1>` akan berwarna merah karena inline CSS memiliki prioritas lebih tinggi.
 
 4. Ketika sebuah elemen HTML memiliki ID dan Class, jika masing-masing selector tersebut memiliki deklarasi CSS, dekorasi ID yang akan ditampilkan di browser. Ini karena selector ID memiliki prioritas lebih tinggi dibandingkan selector Class.
-![App Screenshot](./Images2/7.png)
+![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/7.png)
 Pada contoh di atas, meskipun class `.text-paragraf` mengatur warna menjadi hijau, paragraf dengan ID `paragraf-1` akan berwarna biru karena deklarasi ID memiliki prioritas lebih tinggi.
