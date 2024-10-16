@@ -41,8 +41,10 @@ Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )
 
 3. ika ada deklarasi CSS secara internal, kemudian ditambahkan CSS eksternal dan inline CSS pada elemen yang sama, inline CSS yang akan ditampilkan di browser. Ini disebabkan oleh prinsip specificity (tingkat spesifik) dalam CSS, di mana inline CSS memiliki prioritas tertinggi dibandingkan dengan CSS internal dan eksternal.
 ![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/6.png)
+
 Pada contoh di atas, meskipun ada deklarasi warna biru dalam CSS internal dan warna default di CSS eksternal, elemen `<h1>` akan berwarna merah karena inline CSS memiliki prioritas lebih tinggi.
 
 4. Ketika sebuah elemen HTML memiliki ID dan Class, jika masing-masing selector tersebut memiliki deklarasi CSS, dekorasi ID yang akan ditampilkan di browser. Ini karena selector ID memiliki prioritas lebih tinggi dibandingkan selector Class.
 ![Deskripsi Gambar](https://github.com/ahmdzlf/Lab2Web./blob/main/images2/7.png)
+
 Pada contoh di atas, meskipun class `.text-paragraf` mengatur warna menjadi hijau, paragraf dengan ID `paragraf-1` akan berwarna biru karena deklarasi ID memiliki prioritas lebih tinggi.
