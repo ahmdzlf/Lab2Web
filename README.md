@@ -3,7 +3,7 @@
 
 #### 1. Membuat file baru dengan nama lab2_css_dasar.html 
 
-# ![App Screenshot](.Images2/1.png) 
+# ![App Screenshot](Images2/1.png) 
 
 #### 2. Mendeklarasikan CSS Internal
 
